@@ -80,7 +80,10 @@
   display: none;
 }
 
+/* Style rules for mobile viewport */
 @media (max-width: 768px) {
+
+  /* Style rules for mobile nav */
   .navbar {
     flex-flow: column wrap;
     align-items: center;
