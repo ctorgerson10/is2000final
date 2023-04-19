@@ -212,6 +212,10 @@ h1, h2, h3 {
 }
 
 /* Styles for footer*/
+body {
+  height: 100vh;
+}
+
 footer {
   font-family: 'Courier New', Courier, monospace;
   font-size: small;
@@ -222,7 +226,6 @@ footer {
 
 footer a{
   color:rgb(0, 153, 255);
-  
 }
 
 footer a.highlight:hover{
