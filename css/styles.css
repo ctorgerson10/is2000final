@@ -5,6 +5,7 @@
   --footer: #272635;
   --borders: #a6a6a8;
   font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--main-background);
 }
 
 /* css reset */
@@ -35,7 +36,9 @@
 
 .navbar-links li {
   margin-left: 20px;
+  padding-left: 20px;
   list-style: none;
+  font-size: 16px;
 }
 
 .navbar-links li:first-child {
@@ -86,7 +89,6 @@
   .navbar-logo {
     flex-basis: 100%;
     display: flex;
-
     margin-bottom: 20px;
   }
 
