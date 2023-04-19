@@ -1,37 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About</title>
-    <script src="scripts/script.js" defer></script>
-    <link rel="stylesheet" href="css/styles.css">
-
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>About Us Page</title>
+	
+	<!-- Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js"></script>
 </head>
 <body>
-
-    <nav class="navbar">
-        <div class="navbar-logo">
-          <a href="index.html"><img src="images/wyw-logo.png" alt="Logo"></a>
-        </div>
-        <h1 class="navbar-logo">WEAR YOUR WAY</h1>
-        <ul class="navbar-links">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="athletic.html">Athletic</a></li>
-          <li><a href="casual.html">Casual</a></li>
-        </ul>
-        <!-- this is for the hamburger menu -->
-        <div class="navbar-toggle">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-    </nav>
-    
+	<header>
+		<nav class="navbar">
+			<a href="index.html"><img src="images/wyw-logo.png" alt="About Us"></a>
+			<h1 class="navbar-logo">WEAR YOUR WAY</h1>
+			<ul class="nav-links">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="athletic.html">Athletic</a></li>
+				<li><a href="casual.html">Casual</a></li>
+				<li><a href="#">Table Page</a></li>
+			</ul>
+			<div class="hamburger">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+		</nav>
+	</header>
+	
+	<main>
+		<section id="about">
+			<h1>Welcome to our About Us page!</h1>
+			<p>The goal of our website is to sell great shoes. We produced a compelling design that encourages customers to buy our 
+			shoes. Our website provides information on what styles we have in stock and gives customers contact and location 
+			information on the company so they can come to our store to purchase shoes. Our team comprises of:</p>
+			<ul>
+				<li>CJ Torgerson: Head Manufractuer of Athletic Shoes</li>
+				<li>Sam Liu: Head Manufractuer of Comfort Shoes</li>
+				<li>Plamedy Makiadi: Marketing Manager</li>
+			</ul>
+			<p>We believe in the power of collaboration and strive to deliver exceptional results to our clients. Please take a moment to browse through our portfolios and get to know us better.</p>
+		</section>
+		
+		<section id="map">
+		  <h2>Find Us!</h2>
+		  <p>Here is the site of our main base of operations.</p>
+		  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12631.363658631642!2d-113.08159947395325!3d37.67644573510355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80b561bdf3f4df7d%3A0xe8a43b8225b747dc!2sSouthern%20Utah%20University!5e0!3m2!1sen!2sus!4v1681927249607!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+	
+	<section id="home">
+		<h2>Portfolio's: </h2>
+		<p> Here you can find more in-depth information on each individual team member!</p>
+		<p>At the bottom of the page, you can find the following team member's portfolio:</p>
+		  <ul>
+			<li><a href="#">CJ Torgerson's Portfolio</a></li>
+			<li><a href="#">Sam Liu's Portfolio</a></li>
+			<li><a href="#">Plamedy Makiadi's Portfolio</a></li>
+		  </ul>
+    </section>
 </body>
 </html>
