@@ -210,3 +210,22 @@ h1, h2, h3 {
     width: 100%;
   }
 }
+
+/* Styles for footer*/
+footer {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: small;
+  text-align: center;
+  background-color: #272635;
+  color:#FAFAFA;
+}
+
+footer a{
+  color:blueviolet;
+  
+}
+
+footer a.highlight:hover{
+  color:#B1E5F2;
+  font-size: 20px;
+}
