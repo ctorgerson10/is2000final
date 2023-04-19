@@ -22,7 +22,7 @@ h1, h2, h3 {
 }
 
 /* navbar style rules */
-.navbar {
+._navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -31,17 +31,17 @@ h1, h2, h3 {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.navbar-logo img {
+._navbar-logo img {
   height: 50px;
 }
 
-.navbar-links {
+._navbar-links {
   display: flex;
   justify-content: flex-end;
   align-items: center;
 }
 
-.navbar-links li {
+._navbar-links li {
   margin-left: 20px;
   padding-left: 20px;
   list-style: none;
@@ -49,18 +49,18 @@ h1, h2, h3 {
   font-weight: 600;
 }
 
-.navbar-links li:first-child {
+._navbar-links li:first-child {
   margin-left: 0;
 }
 
-.navbar-links li a {
+._navbar-links li a {
   position: relative;
   text-decoration: none;
 }
 
 /* underline animation */
 /* ------------------- */
-.navbar-links li a::before {
+._navbar-links li a::before {
   content: "";
   position: absolute;
   width: 100%;
@@ -73,18 +73,18 @@ h1, h2, h3 {
   transition: all 0.3s ease-in-out 0s;
 }
 
-.navbar-links li a:hover::before {
+._navbar-links li a:hover::before {
   visibility: visible;
   transform: scaleX(1);
 }
 /* ------------------- */
 
-.navbar-links a {
+._navbar-links a {
   color: #333;
   text-decoration: none;
 }
 
-.navbar-toggle {
+._navbar-toggle {
   display: none;
 }
 
@@ -162,34 +162,34 @@ h1, h2, h3 {
 @media (max-width: 768px) {
 
   /* Style rules for mobile nav */
-  .navbar {
+  ._navbar {
     flex-flow: column wrap;
     align-items: center;
   }
 
-  .navbar-logo {
+  ._navbar-logo {
     flex-basis: 100%;
     display: flex;
     margin-bottom: 20px;
   }
 
-  .navbar-links {
+  ._navbar-links {
     flex-basis: 100%;
     justify-content: center;
     display: none;
   }
 
-  .navbar-links.active {
+  ._navbar-links.active {
     display: block;
   }
 
-  .navbar-links li {
+  ._navbar-links li {
     padding: 10px 0;
     margin: 10px 0;
     text-align: center;
   }
 
-  .navbar-toggle {
+  ._navbar-toggle {
     display: block;
     cursor: pointer;
     position: absolute;
@@ -197,7 +197,7 @@ h1, h2, h3 {
     padding-top: 19px;
   }
 
-  .navbar-toggle span {
+  ._navbar-toggle span {
     display: block;
     width: 25px;
     height: 3px;
