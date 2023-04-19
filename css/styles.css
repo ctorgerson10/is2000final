@@ -4,7 +4,7 @@
   --highlight: #b1e5f2;
   --footer: #272635;
   --borders: #a6a6a8;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   background-color: var(--main-background);
 }
 
@@ -13,6 +13,12 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+h1, h2, h3 {
+  font-family: 'Archivo Narrow', sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.15rem;
 }
 
 /* navbar style rules */
@@ -40,6 +46,7 @@
   padding-left: 20px;
   list-style: none;
   font-size: 16px;
+  font-weight: 600;
 }
 
 .navbar-links li:first-child {
@@ -137,6 +144,7 @@
   text-decoration: none;
   border-radius: 5px;
   transition: background-color 0.3s ease;
+  font-weight: bold;
 }
 
 .product-card a:hover {
