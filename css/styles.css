@@ -21,6 +21,13 @@ h1, h2, h3 {
   letter-spacing: 0.15rem;
 }
 
+#navheadertext {
+  font-family: 'Archivo Narrow', sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.15rem;
+  font-size: 1.5em;
+}
+
 /* navbar style rules */
 ._navbar {
   display: flex;
