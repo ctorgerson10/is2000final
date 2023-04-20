@@ -1,0 +1,63 @@
+/* This is a css for portfolios */
+:root {
+    --main-background: #fafafa;
+    --text-color: #232323;
+    --highlight: #b1e5f2;
+    --footer: #272635;
+    --borders: #a6a6a8;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: var(--main-background);
+  }
+
+/* CSS Reset */
+body, header, main, footer, section, section p, nav, h1 {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Styles for body*/
+body{
+    display: block;
+    background-color: #FAFAFA;
+    color: #232323;
+    
+}
+
+/* Styles for nav */
+nav{
+    background-color: #a6a6a8;
+    height: 5ch;
+}
+
+/* Styles for main*/
+main{
+    padding: 1.5em;
+    background-color: #FAFAFA;
+    color: #232323;
+    
+}
+
+section {
+    display: block;
+}
+
+section p {
+    display: block;
+}
+
+h1{
+    text-align: left;
+    background-color: #a6a6a8; 
+}
+
+
+/* Styles for footer*/
+footer {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: medium;
+    text-align: center;
+    background-color: #272635;
+    color:#FAFAFA;
+    height: 10ch;
+}
