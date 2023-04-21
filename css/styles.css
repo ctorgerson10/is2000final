@@ -303,3 +303,9 @@ footer a.highlight:hover{
   color:#B1E5F2;
   font-size: 20px;
 }
+
+footer img {
+  padding: 25px 0;
+  width: 50px;
+  height: auto;
+}
