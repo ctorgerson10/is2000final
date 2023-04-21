@@ -51,7 +51,8 @@ h1, h2, h3 {
 }
 
 ._navbar-logo img {
-  height: 50px;
+  padding-left: 10px;
+  height: 60px;
 }
 
 ._navbar-links {
@@ -68,6 +69,7 @@ h1, h2, h3 {
   list-style: none;
   font-weight: 600;
   padding-top: 15px;
+  text-transform: uppercase;
 }
 
 ._navbar-links li:first-child {
@@ -91,7 +93,7 @@ h1, h2, h3 {
   background-color: #000;
   visibility: hidden;
   transform: scaleX(0);
-  transition: all 0.3s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s;
 }
 
 ._navbar-links li a:hover::before {
@@ -107,6 +109,38 @@ h1, h2, h3 {
 
 ._navbar-toggle {
   display: none;
+}
+
+/* style rules for hero section on home page */
+._hero-section {
+  position: relative;
+  height: 600px;
+  text-align: left;
+}
+
+._hero-section img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+._hero-section svg {
+  position: absolute;
+  top: 50%;
+  left: 9%;
+  transform: translateY(-50%);
+  width: 15%; /* adjust as needed */
+  height: auto;
+}
+
+.text-area {
+  height: 500px;
+  width: 100%;
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
 }
 
 /* style rules for product card */
@@ -177,6 +211,11 @@ h1, h2, h3 {
   .product-card {
     width: calc(50% - 20px);
   }
+
+  ._hero-section svg {
+    width: 20%; /* adjust as needed */
+    left: 2%;
+  }
 }
 
 /* Style rules for mobile viewport */
@@ -228,9 +267,22 @@ h1, h2, h3 {
     margin-bottom: 5px;
   }
 
+  ._navbar-logo img {
+    padding-left: 0;
+    height: 50px;
+  }
+
   /* Style rules for mobile product card */
   .product-card {
     width: 100%;
+  }
+
+  /* Style rules for mobile hero section */
+  ._hero-section svg {
+    width: 20%; /* adjust as needed */
+    left: 50%;
+    top: 5%;
+    transform: translateX(-200%);
   }
 }
 
