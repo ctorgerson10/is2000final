@@ -4,52 +4,87 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Developer Portfolio</title>
-  <link rel="stylesheet" href="css/cj.css">
+
+  <!--  Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
 </head>
 <body>
 
-  <header>
+  <header class="bg-dark text-center text-white py-4">
     <h1>CJ Torgerson</h1>
+    <small class="text-white-50">Full Time CS Student and Aspiring Developer</small>
+    <div class="container p-4">
+      <!-- Section: Social media -->
+      <section>
+        <!-- Github -->
+        <a class="btn btn-light m-2" href="https://www.github.com/ctorgerson10" target="_blank" role="button">
+          <i class="bi bi-github"></i>
+        </a>
+
+        <!-- Linkedin -->
+        <a class="btn btn-light m-2" href="https://www.linkedin.com/in/cj-torgerson" target="_blank" role="button">
+          <i class="bi bi-linkedin"></i>
+        </a>
+
+        <!-- Mail -->
+        <a class="btn btn-light m-2" href="mailto:ctorgerson10@gmail.com" target="_blank" role="button">
+          <i class="bi bi-envelope"></i>
+        </a>
+      </section>
+    </div>
   </header>
 
-  <main>
+  <main class="p-4">
 
-    <section id="about">
-      <h2>About Me</h2>
-      <p>My name is CJ, and I am a student at Southern Utah University studying Computer Science.</p>
-      <p>As I continue to create new projects, I will update this page. In the meantime check out my GitHub!</p>
+    <section class="container-fluid" id="about">
+      <div class="row p-4">
+        <div class="col-lg-5 col-sm-12 py-4">
+          <h2 class="pb-4">About Me</h2>
+          <p>My name is CJ, and I am a student at Southern Utah University studying Computer Science.</p>
+          <p>I love video games, music, and coding :)</p>
+          <p>Let's connect!</p>
+        </div>
+        <div class="col-lg col-sm-12 py-4">
+          <h2>Contact Me</h2>
+          <form action="">
+            <div class="form-group py-4">
+              <label for="name">Name:</label>
+              <input class="form-control" type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group py-4">
+              <label for="email">Email:</label>
+              <input class="form-control" type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group py-4">
+              <label for="message">Message:</label>
+              <textarea class="form-control" id="message" name="message" required></textarea>
+            </div>
+            <button class="btn btn-primary my-4" type="submit">Send</button>
+          </form>
+        </div>
+      </div>
     </section>
 
-    <section id="projects">
-      <h2>Projects</h2>
-      <ul>
-        <li>
-          <h3>Wear Your Way</h3>
+    <section class="container-fluid" id="projects">
+      <h2 class="px-4">Projects</h2>
+      <div class="row p-4">
+        <div class="col-lg col-sm-12 py-4">
+          <h5>Wear Your Way</h5>
           <p>The final project for my IS-2000 web development course. This is a full website for a fake company, developed in collaboration with two other students.</p>
           <a href="../index.html">View project</a>
-        </li>
-        <li>
-            <p>More projects coming soon!</p>
-        </li>
-      </ul>
-    </section>
-
-    <section id="contact">
-      <h2>Contact Me</h2>
-      <form action="">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" required></textarea>
-        <button type="submit">Send</button>
-      </form>
+        </div>
+        <div class="col-lg col-sm-12 py-4">
+          <h5>More projects coming soon...</h5>
+          <p>I will update this page as I continue to create new projects. In the meantime, check out my Github! To collaborate, reach out to me through email or discord.</p>
+          <a href="https://github.com/ctorgerson10">GitHub</a>
+        </div>
+      </div>
     </section>
 
   </main>
 
-  <footer>
+  <footer class="bg-dark text-white p-4">
     <p>&copy; 2023 CJ Torgerson</p>
   </footer>
 
