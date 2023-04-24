@@ -206,7 +206,7 @@ h1, h2, h3 {
 
 /* styles for text area content */
 .text-area {
-  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.1);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -239,7 +239,6 @@ footer {
   font-family: 'Courier New', Courier, monospace;
   font-size: small;
   text-align: center;
-  background-color: #272635;
   color:#FAFAFA;
 }
 
