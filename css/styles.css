@@ -257,6 +257,10 @@ footer img {
   height: auto;
 }
 
+iframe {
+  width: 50%;
+}
+
 /* Tablet Viewport */
 @media screen and (max-width: 992px) {
   .product-card {
@@ -282,6 +286,11 @@ footer img {
   
   .text-area img {
     flex-basis: 100%;
+  }
+
+  iframe {
+    width: 75%;
+    height: 500px;
   }
 }
 
@@ -364,5 +373,9 @@ footer img {
 
   .text-area img {
     display: none;
+  }
+
+  iframe {
+    width: 90%;
   }
 }
