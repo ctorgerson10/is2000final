@@ -225,13 +225,14 @@ h1, h2, h3 {
   padding-bottom: 30px;
 }
 
-.text-area img {
+.text-area iframe {
   max-width: 100%;
-  height: auto;
+  width: 560px;
+  height: 560px;
   margin: 0 auto;
   display: block;
   flex-basis: 50%;
-  scale: 75%;
+  scale: 80%;
 }
 
 /* Styles for footer*/
@@ -258,7 +259,7 @@ footer img {
   height: auto;
 }
 
-iframe {
+.map {
   width: 50%;
 }
 
@@ -285,11 +286,13 @@ iframe {
     width: 70%;
   }
   
-  .text-area img {
+  .text-area iframe {
+    scale: 100%;
     flex-basis: 100%;
+    display: none;
   }
 
-  iframe {
+  .map {
     width: 75%;
     height: 500px;
   }
@@ -372,11 +375,11 @@ iframe {
     padding: 0;
   }
 
-  .text-area img {
+  .text-area iframe {
     display: none;
   }
 
-  iframe {
+  .map {
     width: 90%;
   }
 }
